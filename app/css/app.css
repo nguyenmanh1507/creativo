@@ -5983,3 +5983,9 @@ th.hide-for-touch {
     display: table-cell !important; } }
 
 /* all app scss styles here */
+.show-for-sr {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px; }
