@@ -1,8 +1,15 @@
 /* all app scss styles here */
-.show-for-sr {
-  clip: rect(1px, 1px, 1px, 1px);
-  height: 1px;
-  overflow: hidden;
-  position: absolute !important;
-  width: 1px;
-}
+@import "modules/variables";
+@import "modules/base";
+@import "modules/misc";
+
+@import "modules/header";
+@import "modules/nav";
+@import "modules/service";
+@import "modules/work";
+@import "modules/about";
+@import "modules/experience";
+@import "modules/funfacts";
+@import "modules/blog";
+@import "modules/pricing";
+@import "modules/contact";

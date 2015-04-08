@@ -1,0 +1,44 @@
+.funfacts-wrap {
+	margin-top: 2.1875rem;
+
+	span {
+		display: block;
+	}
+
+	.fact-number {
+		font-size: 2.5rem;
+		font-weight: bold;
+		margin-top: 0.625rem;
+	}
+
+	.facts-desc {
+		text-transform: uppercase;
+	}
+
+	.fa {
+		font-size: 5.625rem;
+		display: block;
+		background-color: #fff;
+		margin: 0 auto;
+		width: 10.625rem;
+		height: 10.625rem;
+		border-radius: 15px;
+		line-height: 10.625rem;
+
+		&.fa-coffee {
+			color: $color-1;
+		}
+
+		&.fa-smile-o {
+			color: $color-3;
+		}
+
+		&.fa-music {
+			color: $color-6;
+		}
+
+		&.fa-gear {
+			color: $color-5;
+		}
+	}
+}

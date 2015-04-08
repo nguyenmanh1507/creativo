@@ -1,0 +1,37 @@
+.circle {
+	border-radius: 50%;
+	border: 4px solid #fff;
+	width: 12.875rem;
+	height: 12.875rem;
+	margin: 0 auto;
+	line-height: 12.875rem;
+	text-align: center;
+	font-size: 5.625rem;
+	margin-bottom: 2.3125rem;
+}
+
+.service-name {
+	font-size: 1.875rem;
+	text-transform: uppercase;
+	margin-bottom: 0.9375rem;
+}
+
+.service-detail {
+	font-weight: 300;
+	margin-bottom: 2.1875rem;
+}
+
+.button-service {
+	background-color: transparent;
+	border: 1px solid #fff;
+	text-transform: uppercase;
+
+	&.radius {
+		border-radius: 5px;
+	}
+
+	&:hover {
+		background-color: #fff;
+		color: $color-1;
+	}
+}

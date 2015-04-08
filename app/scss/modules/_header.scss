@@ -1,0 +1,60 @@
+#header {
+	background: url('../images/intro.jpg') no-repeat left top;
+	background-size: cover;
+	padding: 16.25em 0 3.13em;
+	position: relative;
+
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background-color: rgba($color-1, .8);
+		z-index: 10;
+	}
+
+	.overlay {
+		position: relative;
+		z-index: 20;
+	}
+
+	.site-title {
+		font-weight: bold;
+		font-size: 5.75rem;
+		margin-bottom: 2.8125rem;
+
+		span {
+			display: block;
+			font-size: 3.75rem;
+		}
+	}
+
+	.site-desc {
+		font-size: 2rem;
+		margin-bottom: 8.4375rem;
+
+		.fa-circle {
+			font-size: 0.8125rem;
+			vertical-align: 7px;
+		}
+	}
+
+	.site-title,
+	.site-desc {
+		color: #fff;
+		text-transform: uppercase;
+	}
+
+	.scroll {
+		display: inline-block;
+		vertical-align: middle;
+		color: #fff;
+		border-radius: 50%;
+		border: 2px solid #fff;
+		font-size: 3.125rem;
+		width: 4.9375rem;
+		height: 4.9375rem;
+	}
+}

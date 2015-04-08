@@ -1,0 +1,87 @@
+.show-for-sr {
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px;
+}
+
+.section-bg-1 {
+	background-color: $color-1;
+}
+
+.section-bg-2 {
+	background-color: $color-2;
+}
+
+.section-bg-3 {
+	background-color: $color-3;
+}
+
+.section-bg-4 {
+	background-color: $color-4;
+}
+
+.section-bg-5 {
+	background-color: $color-5;
+}
+
+.section-bg-6 {
+	background-color: $color-6;
+}
+
+.section-bg-1,
+.section-bg-3,
+.section-bg-4,
+.section-bg-5,
+.section-bg-6 {
+	color: #fff;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: #fff;
+	}
+}
+
+.section-bg-2 {
+	color: $color-7;
+
+	h1, h2, h3, h4, h5, h6 {
+		color: $color-7;
+	}
+}
+
+.padding-thick {
+	padding: 6.25rem 0 8.125rem;
+}
+
+.padding-thin {
+	padding: 3.75rem 0;
+}
+
+.section-title {
+	font-size: 2.875rem;
+	font-weight: bold;
+}
+
+.section-desc {
+	font-size: 1.4375rem;
+	font-weight: 300;
+}
+
+.section-title,
+.section-desc {
+	text-transform: uppercase;
+}
+
+.margin-120 {
+	margin-bottom: 7.5rem;
+}
+
+.button {
+	padding: 0.625rem 1.25rem;
+}
+
+.inline-list > li {
+	display: inline-block;
+	float: none;
+}

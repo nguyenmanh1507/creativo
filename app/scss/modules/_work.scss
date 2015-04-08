@@ -1,0 +1,118 @@
+.th {
+	padding: 0.9375rem;
+	box-shadow: none;
+	border-radius: 0.625rem;
+	border: 0;
+	background-color: #fff;
+
+	&:hover {
+		box-shadow: none;
+	}
+}
+
+.work-list {
+
+	.th {
+		position: relative;
+		color: #fff;
+
+		&:hover {
+
+			.overlay {
+				opacity: 1;				
+			}
+		}
+
+		.overlay {
+			position: absolute;
+			background-color: $color-1;
+			bottom: 0.9375rem;
+			left: 0.9375rem;
+			top: 0.9375rem;
+			right: 0.9375rem;
+			opacity: 0;
+			transition: opacity .3s ease-in;
+
+			.fa {
+				font-size: 100px;
+				vertical-align: middle;
+				position: absolute;
+				left: 50%;
+				top: 50%;
+				margin-left: -39px;
+				margin-top: -50px;
+			}
+
+			.work-title {
+				position: absolute;
+				bottom: 0;
+				left: 0;
+				width: 100%;
+
+				.work-name {
+					font-size: 1.25rem;
+					color: #fff;
+				}
+
+				.work-type {
+					font-size: 1rem;
+					font-weight: 300;
+				}
+
+				.work-name,
+				.work-type {
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+}
+
+.works-filter {
+	display: inline-block;
+}
+
+.works-filter {
+
+	dd.active {
+
+		a {
+			background-color: $color-1;
+			padding: 0.3125rem 0.625rem;
+
+			&:hover {
+				background-color: darken($color-1, 10%);
+			}
+		}
+	}
+	
+	dd a {
+		background-color: #fff;
+		border-radius: 5px;
+		padding: 0.3125rem 0.625rem;
+		color: $color-7;
+		display: inline-block;
+		transition: all .3s ease-in;
+
+		&:hover {
+			background-color: $color-1;
+			color: #fff;
+		}
+	}
+
+	dt {
+		padding: 0.3125rem 0.625rem;
+	}
+}
+
+.button-more-work {
+	background-color: #fff;
+	color: $color-7;
+	margin-top: 2.5rem;
+	transition: all .3s ease-in;
+
+	&:hover {
+		background-color: $color-7;
+		color: #fff;
+	}
+}
