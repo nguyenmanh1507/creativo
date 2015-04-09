@@ -6468,3 +6468,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 6.25rem; }
   .contact.inline-list > li:last-child {
     margin-right: 0; }
+
+.contact-form .contact-form-input {
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  text-transform: uppercase; }
