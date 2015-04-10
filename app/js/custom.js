@@ -21,16 +21,16 @@ jQuery(document).ready(function($) {
 		$container.isotope({ filter: filterValue });
 	});
 
-	// Animate progress bar
-	// $('.meter').click(function(){
-
-	// 	var end = $(this).data('end');
-	// 	console.log(end);
-	// 	$(this).animate({
-	// 		width: end + '%'
-	// 	}, 'fast');
-
-	// });
+	// Owl carousel
+	$("#owl-demo").owlCarousel({
+ 
+		autoPlay: 3000, //Set AutoPlay to 3 seconds
+			 
+		items : 4,
+		itemsDesktop : [1199,3],
+		itemsDesktopSmall : [979,3]
+		 
+	});
 
 	// Counter Up
 	$('.counter').counterUp({
