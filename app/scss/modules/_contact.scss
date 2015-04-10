@@ -24,10 +24,39 @@
 
 .contact-form {
 
+	.form-group {
+		position: relative;
+	}
+
 	.contact-form-input {
 		border: none;
 		border-radius: 5px;
-		padding: 10px 15px;
+		padding: 10px 30px 10px 15px;
 		text-transform: uppercase;
+	}
+
+	i.fa {
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		color: #aaaaaa;
+	}
+
+	textarea {
+		height: 15.625rem;
+	}
+
+	.button-submit {
+		margin: 1.5625rem 0 0 0;
+		background-color: $color-7;
+		color: #fff;
+		text-transform: uppercase;
+		transition: all .3s ease-in;
+		padding: 0.9375rem 1.5625rem;
+
+		&:hover {
+			background-color: #fff;
+			color: $color-7;
+		}
 	}
 }

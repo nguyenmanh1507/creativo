@@ -6469,8 +6469,88 @@ h1, h2, h3, h4, h5, h6 {
   .contact.inline-list > li:last-child {
     margin-right: 0; }
 
+.contact-form .form-group {
+  position: relative; }
 .contact-form .contact-form-input {
   border: none;
   border-radius: 5px;
-  padding: 10px 15px;
+  padding: 10px 30px 10px 15px;
   text-transform: uppercase; }
+.contact-form i.fa {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: #aaaaaa; }
+.contact-form textarea {
+  height: 15.625rem; }
+.contact-form .button-submit {
+  margin: 1.5625rem 0 0 0;
+  background-color: #2f2f2f;
+  color: #fff;
+  text-transform: uppercase;
+  transition: all .3s ease-in;
+  padding: 0.9375rem 1.5625rem; }
+  .contact-form .button-submit:hover {
+    background-color: #fff;
+    color: #2f2f2f; }
+
+.subcribe .form-group {
+  position: relative; }
+.subcribe .subcribe-input {
+  padding: 0.9375rem 0.9375rem 0.9375rem 2.1875rem;
+  border: none;
+  border-radius: 5px;
+  color: #2f2f2f;
+  height: 3.125rem;
+  font-size: 1.125rem; }
+.subcribe i.fa {
+  position: absolute;
+  top: 1.0625rem;
+  left: 0.9375rem;
+  color: #aaaaaa; }
+.subcribe .subcribe-note {
+  color: #aaaaaa; }
+.subcribe .subcribe-submit {
+  background-color: #db5941;
+  color: #fff;
+  text-transform: uppercase;
+  height: 3.125rem;
+  transition: all .3s ease-in; }
+  .subcribe .subcribe-submit:hover {
+    background-color: #fff;
+    color: #db5941; }
+
+#footer {
+  background-color: #ebebea; }
+  #footer .social-list {
+    margin-bottom: 1.5625rem; }
+    #footer .social-list a {
+      display: inline-block;
+      height: 3.75rem;
+      width: 3.75rem;
+      border-radius: 50%;
+      background-color: #d2d2d1;
+      color: #fff;
+      line-height: 3.75rem;
+      font-size: 2.125rem;
+      transition: all .3s ease-in; }
+      #footer .social-list a i.fa {
+        color: #fff;
+        transition: all .3s ease-in; }
+      #footer .social-list a:hover {
+        background-color: #ebebea; }
+        #footer .social-list a:hover i.fa {
+          text-shadow: 1px 1px 0 #d2d2d1; }
+        #footer .social-list a:hover i.fa-dribbble {
+          color: #ea4c89; }
+        #footer .social-list a:hover i.fa-facebook {
+          color: #3b5998; }
+        #footer .social-list a:hover i.fa-twitter {
+          color: #00aced; }
+        #footer .social-list a:hover i.fa-google-plus {
+          color: #dd4b39; }
+  #footer .copyright-info {
+    color: #2d2d2d; }
+    #footer .copyright-info strong {
+      color: #2f2f2f;
+      font-size: 1.0625rem; }
