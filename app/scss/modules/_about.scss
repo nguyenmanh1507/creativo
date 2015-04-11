@@ -5,6 +5,10 @@
 	padding: 0.625rem 0.625rem 2.8125rem;
 	color: $color-7;
 
+	@media (max-width: 40.062em) {
+		margin-bottom: 20px;
+	}
+
 	img {
 		width: 100%;
 		border-radius: 5px;

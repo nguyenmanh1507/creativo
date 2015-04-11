@@ -25,6 +25,13 @@
 		border-radius: 15px;
 		line-height: 10.625rem;
 
+		@media (max-width: 49.625rem) {
+			width: 8.125rem;
+			height: 8.125rem;
+			line-height: 8.125rem;
+			font-size: 3.125rem;
+		}
+
 		&.fa-coffee {
 			color: $color-1;
 		}

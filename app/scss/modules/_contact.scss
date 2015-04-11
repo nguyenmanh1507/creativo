@@ -6,15 +6,29 @@
 		color: #fff;
 		vertical-align: middle;
 		font-weight: 300;
+
+		@media (max-width: 75.5625rem) {
+			font-size: 1.125rem;
+		}
 	}
 
 	&.inline-list > li > i.fa {
 		font-size: 6.125rem;
 		margin-right: 0.9375rem;
+
+		@media (max-width: 75.5625rem) {
+			font-size: 50px;
+		}
 	}
 
 	&.inline-list > li {
 		margin-right: 6.25rem;
+
+		@media (max-width: 75.5625rem) {
+			display: block;
+			text-align: center;
+			margin: 0;
+		}
 
 		&:last-child {
 			margin-right: 0;

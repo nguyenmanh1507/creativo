@@ -8,12 +8,23 @@
 	text-align: center;
 	font-size: 5.625rem;
 	margin-bottom: 2.3125rem;
+
+	@media (max-width: 48rem) {
+		font-size: 4.375rem;
+		width: 9.375rem;
+		height: 9.375rem;
+		line-height: 9.375rem;
+	}
 }
 
 .service-name {
 	font-size: 1.875rem;
 	text-transform: uppercase;
 	margin-bottom: 0.9375rem;
+
+	@media (max-width: 48rem) {
+		font-size: 24px;
+	}
 }
 
 .service-detail {
