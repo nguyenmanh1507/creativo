@@ -1,7 +1,9 @@
 jQuery(document).ready(function($) {
 
+	'use strict';
+
 	// WOW init
-	wow = new WOW({
+	var wow = new WOW({
 		mobile: false
 	});
 	wow.init();
@@ -22,7 +24,7 @@ jQuery(document).ready(function($) {
 	});
 
 	// Owl carousel
-	$("#owl").owlCarousel({
+	$('#owl').owlCarousel({
  
 		autoPlay: 3000, //Set AutoPlay to 3 seconds
 			 
