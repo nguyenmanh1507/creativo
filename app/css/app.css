@@ -6058,8 +6058,10 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   background: url('../images/intro.jpg') no-repeat left top;
   background-size: cover;
-  padding: 16.25em 0 3.13em;
-  position: relative; }
+  position: relative;
+  display: table;
+  height: 100%;
+  width: 100%; }
   #header:after {
     content: '';
     position: absolute;
@@ -6071,17 +6073,24 @@ h1, h2, h3, h4, h5, h6 {
     z-index: 10; }
   #header .overlay {
     position: relative;
+    padding-top: 7%;
     z-index: 20; }
   #header .site-title {
     font-weight: bold;
     font-size: 5.75rem;
-    margin-bottom: 2.8125rem; }
+    margin-bottom: 3%; }
+    @media (max-width: 75.375rem) {
+      #header .site-title {
+        font-size: 3.75rem; } }
     #header .site-title span {
       display: block;
       font-size: 3.75rem; }
+      @media (max-width: 75.375rem) {
+        #header .site-title span {
+          font-size: 2.75rem; } }
   #header .site-desc {
     font-size: 2rem;
-    margin-bottom: 8.4375rem; }
+    margin-bottom: 5%; }
     #header .site-desc .fa-circle {
       font-size: 0.8125rem;
       vertical-align: 7px; }
